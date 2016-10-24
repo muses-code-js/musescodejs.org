@@ -241,7 +241,7 @@ svg {
 
 @media only screen and (min-width: 815px) {
   .hero-image {
-    background: url(../images/node-girls-background-image.jpg) no-repeat center center;
+    /*background: url(../images/main-background.jpg) no-repeat center center;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -249,6 +249,7 @@ svg {
 
     height: 100vh;
     width: 100%;
+    background-color: white;
   }
 }
 .hero-image {
