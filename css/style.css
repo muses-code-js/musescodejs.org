@@ -455,6 +455,10 @@ footer .social-icons__icon{
   background-image: url("../images/team/everlyn.jpg");
 }
 
+/***************************
+  MELBOURNE TEAM
+***************************/
+
 .daniel {
   background-image: url("../images/team/daniel.jpg");
 }
@@ -466,6 +470,11 @@ footer .social-icons__icon{
 .isabell-kiral-korneck {
   background-image: url("../images/team/isabell-kiral-korneck.jpg");
 }
+
+.nicole {
+  background-image: url("../images/team/nicole.jpg");
+}
+
 
 /***************************
   EVENTS LIST
