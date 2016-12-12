@@ -6,3 +6,4 @@ http://nodegirls.com.au/sydney.html
 http://nodegirls.com.au/sydney-event.html
 http://nodegirls.com.au/index.html
 http://nodegirls.com.au/melbourne.html
+http://nodegirls.com.au/contacts.html

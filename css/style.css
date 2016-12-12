@@ -529,3 +529,27 @@ a.green-text, a.grey-text {
   height: 16px;
   width: 16px;
 }
+
+/*MailChimp subscribe form*/
+
+#mc_embed_signup {
+  clear:left;
+  max-width: 400px;
+}
+
+#mc_embed_signup .button {
+  background-color: #4caf50 !important;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: #528e54 !important;
+}
+
+.mc-field-group {
+  max-height: 50px;
+  margin-bottom: 4%;
+}
+
+.mc-field-group input {
+  height: 15px;
+}
