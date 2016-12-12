@@ -483,7 +483,18 @@ footer .social-icons__icon{
 .event-container {
   border-bottom: 1px dotted #596677;
   margin: 30px 0 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow:space-between;
 }
+
+@media only screen and (max-width: 340px) {
+	.event-container {
+		flex-direction: column;
+	}
+}
+
 
 .sponsor {
   margin: 15px 5px 0 5px;
@@ -502,11 +513,13 @@ footer .social-icons__icon{
   font-weight: 400;
   display: inline-block;
   font-size: 1.3rem;
-  float: right;
+  margin: 1em;
+  margin-left: auto;
 }
 
 .event-container__header {
   display: inline-block;
+  padding: 0 0.25em;
 }
 
 @media only screen and (min-width: 993px) {
