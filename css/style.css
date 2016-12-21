@@ -489,9 +489,9 @@ footer .social-icons__icon{
   flex-flow:space-between;
 }
 
-@media only screen and (max-width: 340px) {
-	.event-container {
-		flex-direction: column;
+@media only screen and (max-width: 400px) {
+	.event-container__header {
+		font-size: medium;
 	}
 }
 
