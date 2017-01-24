@@ -34,6 +34,10 @@ p {
   width: 100%;
 }
 
+.chip {
+  margin: 10px 0px;
+}
+
 /*materialise override*/
 .waves-effect {
   z-index: 0;
@@ -565,4 +569,8 @@ a.green-text, a.grey-text {
 
 .mc-field-group input {
   height: 15px;
+}
+
+#mc-embedded-subscribe {
+	margin:0.75em 1em
 }
