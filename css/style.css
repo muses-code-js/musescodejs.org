@@ -428,35 +428,59 @@ footer .social-icons__icon{
 ***************************/
 
 .tanya {
-  background-image: url("../images/team/tanya.jpeg");
+  background-image: url("../images/team/sydney/tanya.jpeg");
 }
 
 .jessica {
-  background-image: url("../images/team/jessica.jpg");
+  background-image: url("../images/team/sydney/jessica.jpg");
 }
 
 .reena {
-  background-image: url("../images/team/reena.jpg");
+  background-image: url("../images/team/sydney/reena.jpg");
 }
 
 .isabel {
-  background-image: url("../images/team/isabel.jpg");
+  background-image: url("../images/team/sydney/isabel.jpg");
 }
 
 .annabel {
-  background-image: url("../images/team/annabel.jpg");
+  background-image: url("../images/team/sydney/annabel.jpg");
 }
 
 .tina {
-  background-image: url("../images/team/tina.jpg");
+  background-image: url("../images/team/sydney/tina.jpg");
 }
 
 .mutya {
-  background-image: url("../images/team/mutya.jpg");
+  background-image: url("../images/team/sydney/mutya.jpg");
 }
 
 .everlyn {
-  background-image: url("../images/team/everlyn.jpg");
+  background-image: url("../images/team/sydney/everlyn.jpg");
+}
+
+.shaila {
+  background-image: url("../images/team/sydney/shaila.jpg");
+}
+
+.ticiana {
+  background-image: url("../images/team/sydney/ticiana.jpg");
+}
+
+.ronaldo {
+  background-image: url("../images/team/sydney/ronaldo.jpg");
+}
+
+.tien {
+  background-image: url("../images/team/sydney/tien.jpg");
+}
+
+.william {
+  background-image: url("../images/team/sydney/william.jpg");
+}
+
+.mike {
+  background-image: url("../images/team/sydney/mike.jpg");
 }
 
 /***************************
@@ -464,19 +488,19 @@ footer .social-icons__icon{
 ***************************/
 
 .daniel {
-  background-image: url("../images/team/daniel.jpg");
+  background-image: url("../images/team/melbourne/daniel.jpg");
 }
 
 .bron {
-  background-image: url("../images/team/bron.jpg");
+  background-image: url("../images/team/melbourne/bron.jpg");
 }
 
 .isabell-kiral-korneck {
-  background-image: url("../images/team/isabell-kiral-korneck.jpg");
+  background-image: url("../images/team/melbourne/isabell-kiral-korneck.jpg");
 }
 
 .nicole {
-  background-image: url("../images/team/nicole.jpg");
+  background-image: url("../images/team/melbourne/nicole.jpg");
 }
 
 
@@ -487,10 +511,10 @@ footer .social-icons__icon{
 .event-container {
   border-bottom: 1px dotted #596677;
   margin: 30px 0 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-flow:space-between;
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*flex-wrap: wrap;*/
+  /*flex-flow: space-between;*/
 }
 
 @media only screen and (max-width: 400px) {
@@ -517,8 +541,9 @@ footer .social-icons__icon{
   font-weight: 400;
   display: inline-block;
   font-size: 1.3rem;
-  margin: 1em;
-  margin-left: auto;
+  float: right;
+  /*margin: 1em;*/
+  /*margin-left: auto;*/
 }
 
 .event-container__header {
