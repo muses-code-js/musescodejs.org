@@ -245,7 +245,6 @@ svg {
 
 @media only screen and (min-width: 815px) {
   .hero-image {
-    /*background: url(../images/main-background.jpg) no-repeat center center;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
