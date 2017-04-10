@@ -326,6 +326,36 @@ svg {
 }
 
 /***************************
+  SPONSORS
+***************************/
+.sponsors {
+  padding: 50px 0;
+}
+.sponsors ul.row {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+.sponsors ul li {
+  width: 20%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.sponsors ul li img {
+  width: 100%;
+  height: auto;
+  max-width: 120px;
+  /*max-height: 50px;*/
+  margin: 0 auto;
+  filter: grayscale(100%);
+}
+/***************************
   FOOTER
 ***************************/
 
