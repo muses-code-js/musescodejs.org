@@ -355,6 +355,37 @@ svg {
   margin: 0 auto;
   filter: grayscale(100%);
 }
+
+/***************************
+  PARTNERS
+***************************/
+.partners {
+  padding: 50px 0;
+  border-top: 1px solid #efefef;
+}
+.partners ul.row {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+.partners ul li {
+  width: 20%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.partners ul li img {
+  width: auto;
+  height: 100%;
+  max-height: 60px;
+  margin: 0 auto;
+  filter: grayscale(100%);
+}
 /***************************
   FOOTER
 ***************************/
