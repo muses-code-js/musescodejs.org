@@ -6,4 +6,7 @@ http://nodegirls.com.au/sydney.html
 http://nodegirls.com.au/sydney-event.html
 http://nodegirls.com.au/index.html
 http://nodegirls.com.au/melbourne.html
+http://nodegirls.com.au/melbourne-event.html
 http://nodegirls.com.au/contacts.html
+http://nodegirls.com.au/brisbane.html
+http://nodegirls.com.au/brisbane-event.html
