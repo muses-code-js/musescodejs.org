@@ -447,6 +447,10 @@ footer .social-icons__icon{
   background-image: url("../images/chapters/melbourne.jpg");
 }
 
+.brisbane {
+  background-image: url("../images/chapters/brisbane.jpg");
+}
+
 /***************************
   TEAM
 ***************************/
@@ -561,6 +565,22 @@ footer .social-icons__icon{
 
 .nicole {
   background-image: url("../images/team/melbourne/nicole.jpg");
+}
+
+/***************************
+  BRISBANE TEAM
+***************************/
+
+.anwesha {
+  background-image: url("../images/team/brisbane/anwesha.jpg");
+}
+
+.devmei {
+  background-image: url("../images/team/brisbane/devmei.jpg");
+}
+
+.laura {
+  background-image: url("../images/team/brisbane/laura.jpg");
 }
 
 
