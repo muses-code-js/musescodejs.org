@@ -583,12 +583,24 @@ footer .social-icons__icon{
   background-image: url("../images/team/brisbane/laura.jpg");
 }
 
+.laurab {
+  background-image: url("../images/team/brisbane/laurab.jpg");
+}
+
 .armagan {
   background-image: url("../images/team/brisbane/armagan.png");
 }
 
 .joshua {
   background-image: url("../images/team/brisbane/joshua.jpg");
+}
+
+.tim {
+  background-image: url("../images/team/brisbane/tim.jpg");
+}
+
+.dana {
+  background-image: url("../images/team/brisbane/dana.jpg");
 }
 
 /***************************
