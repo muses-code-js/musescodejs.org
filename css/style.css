@@ -713,6 +713,19 @@ footer .social-icons__icon {
 .sara {
     background-image: url("../images/team/melbourne/sara.jpeg");
 }
+
+/***************************
+  PERTH TEAM
+***************************/
+
+.rachael {
+    background-image: url("../images/team/perth/rachael.jpg");
+}
+
+.donna {
+    background-image: url("../images/team/perth/donna-edwards.png");
+}
+
 /***************************
   EVENTS LIST
 ***************************/
