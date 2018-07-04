@@ -505,6 +505,10 @@ footer .social-icons__icon {
   SYDNEY TEAM
 ***************************/
 
+.female {
+    background-image: url("../images/team/female.png");
+}
+
 .tanya {
     background-image: url("../images/team/sydney/tanya.jpeg");
 }
@@ -559,6 +563,14 @@ footer .social-icons__icon {
 
 .mike {
     background-image: url("../images/team/sydney/mike.jpg");
+}
+
+.leah {
+    background-image: url("../images/team/sydney/leah.jpeg");
+}
+
+.julia {
+    background-image: url("../images/team/sydney/julia.jpeg");
 }
 
 /***************************
