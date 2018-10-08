@@ -1,514 +1,589 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
-  <meta property="og:image" content="http://nodegirls.com.au/images/background1.jpg">
-  <meta property="og:url" content="http://nodegirls.com.au/brisbane.html">
-  <meta property="og:title" content="Node Girls - JavaScript and Node workshops for women in Brisbane">
-  <meta property="og:description" content="We believe that any person should try programming at least once in their life. Therefore we created a community where in friendly atmosphere with great vibe you can try programming first time or if you already code - learn something new about JavaScript and/or Node.js.">
+    <meta property="og:image" content="http://nodegirls.com.au/images/background1.jpg">
+    <meta property="og:url" content="http://nodegirls.com.au/brisbane.html">
+    <meta property="og:title" content="Node Girls - JavaScript and Node workshops for women in Brisbane">
+    <meta property="og:description"
+          content="We believe that any person should try programming at least once in their life. Therefore we created a community where in friendly atmosphere with great vibe you can try programming first time or if you already code - learn something new about JavaScript and/or Node.js.">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@NodeGirlsBri">
-  <meta name="twitter:creator" content="@ButenkoMe">
-  <meta name="twitter:title" content="Node Girls - free coding workshops for women">
-  <meta name="twitter:description" content="We believe that any person should try programming at least once in their life. Therefore we created a community where in friendly atmosphere with great vibe you can try programming first time or if you already code - learn something new about JavaScript and/or Node.js.">
-  <meta name="twitter:image" content="http://nodegirls.com.au/images/background1.jpg">
-  <meta name="twitter:image:alt" content="Two women coding">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@NodeGirlsBri">
+    <meta name="twitter:creator" content="@ButenkoMe">
+    <meta name="twitter:title" content="Node Girls - free coding workshops for women">
+    <meta name="twitter:description"
+          content="We believe that any person should try programming at least once in their life. Therefore we created a community where in friendly atmosphere with great vibe you can try programming first time or if you already code - learn something new about JavaScript and/or Node.js.">
+    <meta name="twitter:image" content="http://nodegirls.com.au/images/background1.jpg">
+    <meta name="twitter:image:alt" content="Two women coding">
 
-  <title>Node Girls - Node workshops for women</title>
+    <title>Node Girls - Node workshops for women</title>
 
-  <!-- CSS  -->
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- CSS  -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-87608309-1', 'auto');
-    ga('send', 'pageview');
+        ga('create', 'UA-87608309-1', 'auto');
+        ga('send', 'pageview');
 
-  </script>
+    </script>
 </head>
 
 <body>
-  <nav class="white">
+<nav class="white">
     <div class="nav-wrapper container">
 
-      <ul class="hide-on-med-and-down nav-list nav-list--with-image">
-        <li class="nav-list__list-item"><a href="chapters.html">Chapters</a></li>
-        <li class="nav-list__list-item"><a href="events.html">Events</a></li>
-        <li class="nav-list__logo"><a href="./"><img alt="Node Girls Logo" src="images/ng-logo.svg"></a></li>
-        <li class="nav-list__list-item"><a href="resources.html">Resources</a></li>
-        <li class="nav-list__list-item"><a href="./contacts.html">Contact Us</a></li>
-      </ul>
-
-      <!--hamburger menu-->
-      <a class="nav-button" tabindex="0">☰</a>
-      <span class="nav-close" tabindex="0">☰</span>
-
-      <div class="nav-frame">
-        <!-- Side nav for mobile - menu links MUST BE REPEATED HERE,
-        hidden in non-mobile settings-->
-        <ul class="mobile-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="chapters.html">Chapters</a></li>
-          <li><a href="events.html">Upcoming Events</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="./contacts.html">Contact Us</a></li>
+        <ul class="hide-on-med-and-down nav-list nav-list--with-image">
+            <li class="nav-list__list-item"><a href="chapters.html">Chapters</a></li>
+            <li class="nav-list__list-item"><a href="events.html">Events</a></li>
+            <li class="nav-list__logo"><a href="./"><img alt="Node Girls Logo" src="images/ng-logo.svg"></a></li>
+            <li class="nav-list__list-item"><a href="resources.html">Resources</a></li>
+            <li class="nav-list__list-item"><a href="./contacts.html">Contact Us</a></li>
         </ul>
-      </div>
-      <button class="nav-overflow"></button>
-    </div>
-  </nav>
 
-  <main>
+        <!--hamburger menu-->
+        <a class="nav-button" tabindex="0">☰</a>
+        <span class="nav-close" tabindex="0">☰</span>
+
+        <div class="nav-frame">
+            <!-- Side nav for mobile - menu links MUST BE REPEATED HERE,
+            hidden in non-mobile settings-->
+            <ul class="mobile-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chapters.html">Chapters</a></li>
+                <li><a href="events.html">Upcoming Events</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="./contacts.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <button class="nav-overflow"></button>
+    </div>
+</nav>
+
+<main>
 
     <div class="section no-pad-bot">
-      <div class="container">
-        <div class="why-container center">
-          <h3 class="header center green-text">Brisbane</h3>
-          <hr class="why-text-container__divider"/>
-          <div class="row center">
-            <h5 class="header col s12 light">
-              NodeGirls Brisbane has been running since May 2017.
-            </h5>
-          </div>
-          <ul class="social-icons">
-            <li class="social-icons__icon"><a class="black-text" href="https://twitter.com/NodeGirlsBri"><i class="fa fa-twitter fa-3x"></i></a></li>
-            <li class="social-icons__icon"><a class="black-text" href="http://www.facebook.com/NodeGirlsAustralia/"><i class="fa fa-facebook fa-3x"></i></a></li>
-          </ul>
-        </div>
-        <img class="why-image" src="images/chapters/brisbane-profile.jpg" alt="Group photo of attendees"/>
+        <div class="container">
+            <div class="why-container center">
+                <h3 class="header center green-text">Brisbane</h3>
+                <hr class="why-text-container__divider"/>
+                <div class="row center">
+                    <h5 class="header col s12 light">
+                        NodeGirls Brisbane has been running since May 2017.
+                    </h5>
+                </div>
+                <ul class="social-icons">
+                    <li class="social-icons__icon"><a class="black-text" href="https://twitter.com/NodeGirlsBri"><i
+                            class="fa fa-twitter fa-3x"></i></a></li>
+                    <li class="social-icons__icon"><a class="black-text"
+                                                      href="http://www.facebook.com/NodeGirlsAustralia/"><i
+                            class="fa fa-facebook fa-3x"></i></a></li>
+                </ul>
+            </div>
+            <img class="why-image" src="images/chapters/brisbane-profile.jpg" alt="Group photo of attendees"/>
 
-        <!--   Upcoming Events Section   -->
-        <h3 class="header center green-text">Upcoming Events</h3>
-        <div class="event-container">
-          <h5 class="header light event-container__header">Saturday 8th<sup></sup> September 2018</h5>
-          <h5 class="header time">
+            <!--   Upcoming Events Section   -->
+            <h3 class="header center green-text">Upcoming Events</h3>
+            <div class="event-container">
+                <h5 class="header light event-container__header">Saturday 19th<sup></sup> January 2019</h5>
+                <h5 class="header time">
                 <span class="inline-clock-icon">
                     <svg width="11" height="11" viewBox="0 0 11 11"><path
                             d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z"></path></svg>
                 </span>
-            10:00 - 16:00
-          </h5>
-          <div class="event">
-            <div class="title">
-              <a class="grey-text" href="https://www.eventbrite.com.au/e/introduction-to-javascript-for-complete-beginners-tickets-48948626660">
-                Intro to JavaScript
-              </a>
-              at
-              <a class="grey-text" href="http://www.fishburners.org">
-              Fishburners Brisbane
-              </a>
+                    10:00 - 16:00
+                </h5>
+                <div class="event">
+                    <div class="title">
+                        <!--<a class="grey-text" href="">-->
+                            Intro to JavaScript
+                        <!--</a>-->
+                        at
+                        <a class="grey-text" href="http://www.fishburners.org">
+                            Fishburners Brisbane
+                        </a>
+                    </div>
+
+                    <p class="flow-text">
+                        Introduction to JavaScript for beginners
+                    </p>
+
+                    <div class="row">
+                        <div class="organisers-container col m6">
+                            <a href="https://twitter.com/perturbadactyl/">
+                                <div class="team-image team-image__small dana"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/armaganersoz/">
+                                <div class="team-image team-image__small armagan"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sammyherbert/">
+                                <div class="team-image team-image__small sammy"></div>
+                            </a>
+                            <a href="#">
+                                <div class="team-image team-image__small female"></div>
+                            </a>
+                        </div>
+
+                        <div class="col m6 sponsors-container">
+                            <a href="http://www.fishburners.org">
+                                <img class="sponsor" src="images/sponsors/fishburners.png" alt="Fishburners logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <p class="flow-text">
-              Introduction to JavaScript for beginners
-            </p>
 
-            <div class="row">
-              <div class="organisers-container col m6">
-                <a href="https://www.linkedin.com/in/chatterjeeanwesha/">
-                  <div class="team-image team-image__small anwesha"></div>
-                </a>
-                <a href="https://twitter.com/perturbadactyl/">
-                  <div class="team-image team-image__small dana"></div>
-                </a>
-                <a href="https://www.linkedin.com/in/armaganersoz/">
-                  <div class="team-image team-image__small armagan"></div>
-                </a>
-                <a href="https://www.linkedin.com/in/sammyherbert/">
-                  <div class="team-image team-image__small sammy"></div>
-                </a>
-                <a href="#">
-                  <div class="team-image team-image__small female"></div>
-                </a>
-
-              </div>
-
-              <div class="col m6 sponsors-container">
-
-                <a href="https://justdigitalpeople.com.au">
-                <img class="sponsor" src="images/sponsors/justdigitalpeople-logo.png" alt="Just Digital People logo">
-                </a>
-                <a href="https://agilityapplications.com/">
-                <img class="sponsor" src="images/sponsors/agility_app.jpg" alt="Agility Applications logo">
-                </a>
-                <a href="http://www.fishburners.org">
-                <img class="sponsor" src="images/sponsors/fishburners.png" alt="Fishburners logo">
-                </a>
-                <a href="https://www.gbst.com/">
-                <img class="sponsor" src="images/sponsors/gbst.jpg" alt="GBST logo">
-                </a>
-                <a href="https://www.rexlabs.io/">
-                <img class="sponsor" src="images/sponsors/rexlabs.png" alt="Rexlabs logo">
-                </a>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-        <!--   Past Events Section   -->
-        <h3 class="header center green-text">Past Events</h3>
-        <div class="event-container">
-          <h5 class="header light event-container__header">Saturday 10th<sup></sup> March 2018</h5>
-          <h5 class="header time">
+            <!--   Past Events Section   -->
+            <h3 class="header center green-text">Past Events</h3>
+            <div class="event-container">
+                <h5 class="header light event-container__header">Saturday 8th<sup></sup> September 2018</h5>
+                <h5 class="header time">
                 <span class="inline-clock-icon">
                     <svg width="11" height="11" viewBox="0 0 11 11"><path
                             d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z"></path></svg>
                 </span>
-            10:00 - 16:00
-          </h5>
-          <div class="event">
-            <div class="title">
-              <a class="grey-text" href="https://www.eventbrite.com.au/e/introduction-to-javascript-for-complete-beginners-tickets-43049761997">
-                Intro to JavaScript
-              </a>
-              at
-              <a class="grey-text" href="http://www.fishburners.org">
-              Fishburners Brisbane
-              </a>
+                    10:00 - 16:00
+                </h5>
+                <div class="event">
+                    <div class="title">
+                        <a class="grey-text"
+                           href="https://www.eventbrite.com.au/e/introduction-to-javascript-for-complete-beginners-tickets-48948626660">
+                            Intro to JavaScript
+                        </a>
+                        at
+                        <a class="grey-text" href="http://www.fishburners.org">
+                            Fishburners Brisbane
+                        </a>
+                    </div>
 
+                    <p class="flow-text">
+                        Introduction to JavaScript for beginners
+                    </p>
+
+                    <div class="row">
+                        <div class="organisers-container col m6">
+                            <a href="https://www.linkedin.com/in/chatterjeeanwesha/">
+                                <div class="team-image team-image__small anwesha"></div>
+                            </a>
+                            <a href="https://twitter.com/perturbadactyl/">
+                                <div class="team-image team-image__small dana"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/armaganersoz/">
+                                <div class="team-image team-image__small armagan"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sammyherbert/">
+                                <div class="team-image team-image__small sammy"></div>
+                            </a>
+                            <a href="#">
+                                <div class="team-image team-image__small female"></div>
+                            </a>
+
+                        </div>
+
+                        <div class="col m6 sponsors-container">
+
+                            <a href="https://justdigitalpeople.com.au">
+                                <img class="sponsor" src="images/sponsors/justdigitalpeople-logo.png"
+                                     alt="Just Digital People logo">
+                            </a>
+                            <a href="https://agilityapplications.com/">
+                                <img class="sponsor" src="images/sponsors/agility_app.jpg"
+                                     alt="Agility Applications logo">
+                            </a>
+                            <a href="http://www.fishburners.org">
+                                <img class="sponsor" src="images/sponsors/fishburners.png" alt="Fishburners logo">
+                            </a>
+                            <a href="https://www.gbst.com/">
+                                <img class="sponsor" src="images/sponsors/gbst.jpg" alt="GBST logo">
+                            </a>
+                            <a href="https://www.rexlabs.io/">
+                                <img class="sponsor" src="images/sponsors/rexlabs.png" alt="Rexlabs logo">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <p class="flow-text">
-              Introduction to JavaScript for beginners
-            </p>
-
-            <div class="row">
-              <div class="organisers-container col m6">
-                <a href="https://www.linkedin.com/in/chatterjeeanwesha/">
-                  <div class="team-image team-image__small anwesha"></div>
-                  <div class="team-image team-image__small dana"></div>
-                  <div class="team-image team-image__small armagan"></div>
-                  <div class="team-image team-image__small sammy"></div>
-                </a>
-              </div>
-
-              <div class="col m6 sponsors-container">
-
-                <a href="https://justdigitalpeople.com.au">
-                <img class="sponsor" src="images/sponsors/justdigitalpeople-logo.png" alt="Just Digital People logo">
-                </a>
-                <a href="https://www.qld.gov.au/dsiti">
-                <img class="sponsor" src="images/sponsors/qld-gov.png" alt="QLD Government logo">
-                </a>
-                <a href="http://www.sixpivot.com/">
-                <img class="sponsor" src="images/sponsors/sixpivot.png" alt="SixPivot logo">
-                </a>
-                <a href="http://www.fishburners.org">
-                <img class="sponsor" src="images/sponsors/fishburners.png" alt="Fishburners logo">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="event-container">
-          <h5 class="header light event-container__header">Saturday 9<sup>th</sup> December 2017</h5>
-          <a href="https://www.eventbrite.com.au/e/introduction-to-nodejs-and-expressjs-workshop-20-tickets-39563023067">
-          </a>
-          <h5 class="header time">
+            <div class="event-container">
+                <h5 class="header light event-container__header">Saturday 10th<sup></sup> March 2018</h5>
+                <h5 class="header time">
                 <span class="inline-clock-icon">
                     <svg width="11" height="11" viewBox="0 0 11 11"><path
                             d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z"></path></svg>
                 </span>
-            10:00 - 16:00
-          </h5>
-          <div class="event">
-            <div class="title">
-              <a class="grey-text" href="https://www.eventbrite.com.au/e/introduction-to-nodejs-and-expressjs-workshop-20-tickets-39563023067">
-                NodeGirls @2.0
-              </a>
-              at
-              <a class="grey-text" href="">
-              Just Digital People Brisbane
-              </a>
-            </div>
-            <div class="row">
-              <div class="organisers-container col m6">
-                <a href="https://www.linkedin.com/in/chatterjeeanwesha/">
-                  <div class="team-image team-image__small anwesha"></div>
-                </a>
-                <a href="https://twitter.com/perturbadactyl/">
-                  <div class="team-image team-image__small dana"></div>
-                </a>
-                <a href="https://www.linkedin.com/in/armaganersoz/">
-                  <div class="team-image team-image__small armagan"></div>
-                </a>
-                <a href="https://www.linkedin.com/in/sammyherbert/">
-                  <div class="team-image team-image__small sammy"></div>
-                </a>
+                    10:00 - 16:00
+                </h5>
+                <div class="event">
+                    <div class="title">
+                        <a class="grey-text"
+                           href="https://www.eventbrite.com.au/e/introduction-to-javascript-for-complete-beginners-tickets-43049761997">
+                            Intro to JavaScript
+                        </a>
+                        at
+                        <a class="grey-text" href="http://www.fishburners.org">
+                            Fishburners Brisbane
+                        </a>
 
-              </div>
+                    </div>
 
-              <div class="col m6 sponsors-container">
-                <a href="https://justdigitalpeople.com.au">
-                <img class="sponsor" src="images/sponsors/justdigitalpeople-logo.png" alt="Just Digital People logo">
-                </a>
-                <a href="https://www.qld.gov.au/dsiti">
-                <img class="sponsor" src="images/sponsors/qld-gov.png" alt="QLD Government logo">
-                </a>
-                <a href="http://www.sixpivot.com/">
-                <img class="sponsor" src="images/sponsors/sixpivot.png" alt="SixPivot logo">
-                </a>
-              </div>
+                    <p class="flow-text">
+                        Introduction to JavaScript for beginners
+                    </p>
+
+                    <div class="row">
+                        <div class="organisers-container col m6">
+                            <a href="https://www.linkedin.com/in/chatterjeeanwesha/">
+                                <div class="team-image team-image__small anwesha"></div>
+                                <div class="team-image team-image__small dana"></div>
+                                <div class="team-image team-image__small armagan"></div>
+                                <div class="team-image team-image__small sammy"></div>
+                            </a>
+                        </div>
+
+                        <div class="col m6 sponsors-container">
+
+                            <a href="https://justdigitalpeople.com.au">
+                                <img class="sponsor" src="images/sponsors/justdigitalpeople-logo.png"
+                                     alt="Just Digital People logo">
+                            </a>
+                            <a href="https://www.qld.gov.au/dsiti">
+                                <img class="sponsor" src="images/sponsors/qld-gov.png" alt="QLD Government logo">
+                            </a>
+                            <a href="http://www.sixpivot.com/">
+                                <img class="sponsor" src="images/sponsors/sixpivot.png" alt="SixPivot logo">
+                            </a>
+                            <a href="http://www.fishburners.org">
+                                <img class="sponsor" src="images/sponsors/fishburners.png" alt="Fishburners logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="event-container">
-          <h5 class="header light event-container__header">Saturday 12<sup>th</sup> August 2017</h5>
-          <h5 class="header time">
+            <div class="event-container">
+                <h5 class="header light event-container__header">Saturday 9<sup>th</sup> December 2017</h5>
+                <a href="https://www.eventbrite.com.au/e/introduction-to-nodejs-and-expressjs-workshop-20-tickets-39563023067">
+                </a>
+                <h5 class="header time">
                 <span class="inline-clock-icon">
                     <svg width="11" height="11" viewBox="0 0 11 11"><path
-                        d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z"></path></svg>
+                            d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z"></path></svg>
                 </span>
-            10:00 - 16:00
-          </h5>
-          <div class="event">
-            <div class="title">
-              <a class="grey-text" href="https://www.eventbrite.com.au/e/introduction-to-nodejs-and-expressjs-workshop-tickets-36102154516?aff=eac2">
-                NodeGirls
-              </a>
-              at
-              <a class="grey-text" href="http://justdigitalpeople.com.au">
-                Just Digital People Brisbane
-              </a>
-            </div>
-            <div class="row">
-              <div class="organisers-container col m6">
-                <a href="https://www.linkedin.com/in/chatterjeeanwesha/">
-                  <div class="team-image team-image__small anwesha"></div>
-                </a>
-                <a href="https://www.linkedin.com/in/lauragieco/">
-                  <div class="team-image team-image__small laura"></div>
-                </a>
-                <a href="https://www.linkedin.com/in/armaganersoz/">
-                  <div class="team-image team-image__small armagan"></div>
-                </a>
-                <a href="https://www.linkedin.com/in/sitapati/">
-                  <div class="team-image team-image__small joshua"></div>
-                </a>
-              </div>
+                    10:00 - 16:00
+                </h5>
+                <div class="event">
+                    <div class="title">
+                        <a class="grey-text"
+                           href="https://www.eventbrite.com.au/e/introduction-to-nodejs-and-expressjs-workshop-20-tickets-39563023067">
+                            NodeGirls @2.0
+                        </a>
+                        at
+                        <a class="grey-text" href="">
+                            Just Digital People Brisbane
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="organisers-container col m6">
+                            <a href="https://www.linkedin.com/in/chatterjeeanwesha/">
+                                <div class="team-image team-image__small anwesha"></div>
+                            </a>
+                            <a href="https://twitter.com/perturbadactyl/">
+                                <div class="team-image team-image__small dana"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/armaganersoz/">
+                                <div class="team-image team-image__small armagan"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sammyherbert/">
+                                <div class="team-image team-image__small sammy"></div>
+                            </a>
 
-            <div class="col m6 sponsors-container">
-                <a href="https://justdigitalpeople.com.au">
-                    <img class="sponsor" src="images/sponsors/justdigitalpeople-logo.png" alt="Just Digital People logo">
-                </a>
-                <a href="https://hired.com.au/">
-                  <img class="sponsor" src="images/sponsors/hired-logo.jpg" alt="Hired logo">
-                </a>
-                <a href="https://www.redhat.com/en">
-                  <img class="sponsor" src="images/sponsors/redhat-logo.png" alt="Red Hat logo">
-                </a>
-            </div>
-            </div>
-          </div>
-        </div>
+                        </div>
 
-        <h3 class="header center green-text">Meet the Team</h3>
-        <div class="profile-images-container">
-          <div class="row center">
-            <h5 class="header col s12 green-text">
-              Organisers
-            </h5>
-          </div>
-          <div class="row">
-           <div class="profile-container col s12 m6 l4 row center">
-             <a href="https://www.linkedin.com/in/chatterjeeanwesha/">
-              <div class="team-image anwesha"></div>
-             </a>
-             <h5>Anwesha Chatterjee</h5>
-             <p>Software Engineer at REA Group</p>
-           </div>
-           <div class="profile-container col s12 m6 l4 row center">
-             <a href="https://www.linkedin.com/in/dana-mison-0941844b/">
-              <div class="team-image dana"></div>
-             </a>
-             <h5>Dana Mison</h5>
-             <p>Web Developer at Australian Broadcasting Corporation (ABC)</p>
-           </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="https://www.linkedin.com/in/armaganersoz/">
-                <div class="team-image armagan"></div>
-              </a>
-              <h5>Arma&#287;an Ers&ouml;z</h5>
-              <p>Software Engineer at Red Hat</p>
+                        <div class="col m6 sponsors-container">
+                            <a href="https://justdigitalpeople.com.au">
+                                <img class="sponsor" src="images/sponsors/justdigitalpeople-logo.png"
+                                     alt="Just Digital People logo">
+                            </a>
+                            <a href="https://www.qld.gov.au/dsiti">
+                                <img class="sponsor" src="images/sponsors/qld-gov.png" alt="QLD Government logo">
+                            </a>
+                            <a href="http://www.sixpivot.com/">
+                                <img class="sponsor" src="images/sponsors/sixpivot.png" alt="SixPivot logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="https://www.linkedin.com/in/sammyherbert/">
-                <div class="team-image sammy"></div>
-              </a>
-              <h5>Sammy Herbert</h5>
-              <p>Inclusion Strategist @ WORK180</p>
+            <div class="event-container">
+                <h5 class="header light event-container__header">Saturday 12<sup>th</sup> August 2017</h5>
+                <h5 class="header time">
+                <span class="inline-clock-icon">
+                    <svg width="11" height="11" viewBox="0 0 11 11"><path
+                            d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z"></path></svg>
+                </span>
+                    10:00 - 16:00
+                </h5>
+                <div class="event">
+                    <div class="title">
+                        <a class="grey-text"
+                           href="https://www.eventbrite.com.au/e/introduction-to-nodejs-and-expressjs-workshop-tickets-36102154516?aff=eac2">
+                            NodeGirls
+                        </a>
+                        at
+                        <a class="grey-text" href="http://justdigitalpeople.com.au">
+                            Just Digital People Brisbane
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="organisers-container col m6">
+                            <a href="https://www.linkedin.com/in/chatterjeeanwesha/">
+                                <div class="team-image team-image__small anwesha"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/lauragieco/">
+                                <div class="team-image team-image__small laura"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/armaganersoz/">
+                                <div class="team-image team-image__small armagan"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sitapati/">
+                                <div class="team-image team-image__small joshua"></div>
+                            </a>
+                        </div>
+
+                        <div class="col m6 sponsors-container">
+                            <a href="https://justdigitalpeople.com.au">
+                                <img class="sponsor" src="images/sponsors/justdigitalpeople-logo.png"
+                                     alt="Just Digital People logo">
+                            </a>
+                            <a href="https://hired.com.au/">
+                                <img class="sponsor" src="images/sponsors/hired-logo.jpg" alt="Hired logo">
+                            </a>
+                            <a href="https://www.redhat.com/en">
+                                <img class="sponsor" src="images/sponsors/redhat-logo.png" alt="Red Hat logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="">
-                <div class="team-image female"></div>
-              </a>
-              <h5>Blanka K</h5>
-              <p>Web Developer</p>
+
+            <h3 class="header center green-text">Meet the Team</h3>
+            <div class="profile-images-container">
+                <div class="row center">
+                    <h5 class="header col s12 green-text">
+                        Organisers
+                    </h5>
+                </div>
+                <div class="row">
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="https://www.linkedin.com/in/chatterjeeanwesha/">
+                            <div class="team-image anwesha"></div>
+                        </a>
+                        <h5>Anwesha Chatterjee</h5>
+                        <p>Software Engineer at REA Group</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="https://www.linkedin.com/in/dana-mison-0941844b/">
+                            <div class="team-image dana"></div>
+                        </a>
+                        <h5>Dana Mison</h5>
+                        <p>Web Developer at Australian Broadcasting Corporation (ABC)</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="https://www.linkedin.com/in/armaganersoz/">
+                            <div class="team-image armagan"></div>
+                        </a>
+                        <h5>Arma&#287;an Ers&ouml;z</h5>
+                        <p>Software Engineer at Red Hat</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="https://www.linkedin.com/in/sammyherbert/">
+                            <div class="team-image sammy"></div>
+                        </a>
+                        <h5>Sammy Herbert</h5>
+                        <p>Inclusion Strategist @ WORK180</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="">
+                            <div class="team-image female"></div>
+                        </a>
+                        <h5>Blanka K</h5>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="profile-images-container">
+                <div class="row center">
+                    <h5 class="header col s12 green-text">
+                        Mentors
+                    </h5>
+                </div>
+                <div class="row">
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="https://www.linkedin.com/in/jennifer-reeve-0aa42912/">
+                            <div class="team-image jenny"></div>
+                        </a>
+                        <h5>Jennifer Reeve</h5>
+                        <p>.NET developer at TechnologyOne</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="https://www.linkedin.com/in/jamie-larchin-9a7706126/">
+                            <div class="team-image jamie"></div>
+                        </a>
+                        <h5>Jamie Larchin</h5>
+                        <p>Front End Developer at WORK180</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="https://www.linkedin.com/in/tracykaur/">
+                            <div class="team-image tracy"></div>
+                        </a>
+                        <h5>Tracy Kaur</h5>
+                        <p>A mum that codes. A promoter of diversity in tech and STEM learning.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="https://twitter.com/AnnaGerber">
+                            <div class="team-image anna"></div>
+                        </a>
+                        <h5>Anna Gerber</h5>
+                        <p>Senior Software Developer at PCCW Global.</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="">
+                            <div class="team-image ally"></div>
+                        </a>
+                        <h5>Ally Eastman</h5>
+                        <p>Developer at Mandalay Technologies.</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="https://www.linkedin.com/in/markpcoleman/">
+                            <div class="team-image mark"></div>
+                        </a>
+                        <h5>Mark Coleman</h5>
+                        <p>Product Designer/Technologist at Dingo Software.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="https://www.linkedin.com/in/vickircoleman/">
+                            <div class="team-image vicki"></div>
+                        </a>
+                        <h5>Vicki Coleman</h5>
+                        <p>Raelee.Design : Web Developer - Graphic Artist - User Experience Designer.</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="">
+                            <div class="team-image sandra"></div>
+                        </a>
+                        <h5>Sandra Arato</h5>
+                        <p>Software Engineer at AssetChain.</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="">
+                            <div class="team-image komal"></div>
+                        </a>
+                        <h5>Komal Bandi</h5>
+                        <p>Web developer at blackmilk.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="">
+                            <div class="team-image shaw"></div>
+                        </a>
+                        <h5>Shaw Innes</h5>
+                        <p>Engineering Manager for Lotteries at Tabcorp, .NET Developer, Adventurer and Co-Founder of
+                            FairDealFX.</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="">
+                            <div class="team-image randall"></div>
+                        </a>
+                        <h5>Randall Fernando</h5>
+                        <p>Data Scientist at BHP.</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="">
+                            <div class="team-image tod"></div>
+                        </a>
+                        <h5>Tod Thomson</h5>
+                        <p>Lead Consultant at Readify</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="">
+                            <div class="team-image ashwin"></div>
+                        </a>
+                        <h5>Ashwin Kandel </h5>
+                        <p>JavaScript Engineer</p>
+                    </div>
+                    <div class="profile-container col s12 m6 l4 row center">
+                        <a href="">
+                            <div class="team-image marco"></div>
+                        </a>
+                        <h5>Marco Jalili</h5>
+                        <p>Frontend developer @BioMérieux</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="profile-images-container">
-          <div class="row center">
-            <h5 class="header col s12 green-text">
-              Mentors
-            </h5>
-          </div>
-          <div class="row">
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="https://www.linkedin.com/in/jennifer-reeve-0aa42912/">
-                <div class="team-image jenny"></div>
-              </a>
-              <h5>Jennifer Reeve</h5>
-              <p>.NET developer at TechnologyOne</p>
-            </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="https://www.linkedin.com/in/jamie-larchin-9a7706126/">
-                <div class="team-image jamie"></div>
-              </a>
-              <h5>Jamie Larchin</h5>
-              <p>Front End Developer at WORK180</p>
-            </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="https://www.linkedin.com/in/tracykaur/">
-                <div class="team-image tracy"></div>
-              </a>
-              <h5>Tracy Kaur</h5>
-              <p>A mum that codes. A promoter of diversity in tech and STEM learning.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="https://twitter.com/AnnaGerber">
-                <div class="team-image anna"></div>
-              </a>
-              <h5>Anna Gerber</h5>
-              <p>Senior Software Developer at PCCW Global.</p>
-            </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="">
-                <div class="team-image ally"></div>
-              </a>
-              <h5>Ally Eastman</h5>
-              <p>Developer at Mandalay Technologies.</p>
-            </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="https://www.linkedin.com/in/markpcoleman/">
-                <div class="team-image mark"></div>
-              </a>
-              <h5>Mark Coleman</h5>
-              <p>Product Designer/Technologist at Dingo Software.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="https://www.linkedin.com/in/vickircoleman/">
-                <div class="team-image vicki"></div>
-              </a>
-              <h5>Vicki Coleman</h5>
-              <p>Raelee.Design : Web Developer - Graphic Artist - User Experience Designer.</p>
-            </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="">
-                <div class="team-image sandra"></div>
-              </a>
-              <h5>Sandra Arato</h5>
-              <p>Software Engineer at AssetChain.</p>
-            </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="">
-                <div class="team-image komal"></div>
-              </a>
-              <h5>Komal Bandi</h5>
-              <p>Web developer at blackmilk.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="">
-                <div class="team-image shaw"></div>
-              </a>
-              <h5>Shaw Innes</h5>
-              <p>Engineering Manager for Lotteries at Tabcorp, .NET Developer, Adventurer and Co-Founder of FairDealFX.</p>
-            </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="">
-                <div class="team-image randall"></div>
-              </a>
-              <h5>Randall Fernando</h5>
-              <p>Data Scientist at BHP.</p>
-            </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="">
-                <div class="team-image tod"></div>
-              </a>
-              <h5>Tod Thomson</h5>
-              <p>Lead Consultant at Readify</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="">
-                <div class="team-image ashwin"></div>
-              </a>
-              <h5>Ashwin Kandel </h5>
-              <p>JavaScript Engineer</p>
-            </div>
-            <div class="profile-container col s12 m6 l4 row center">
-              <a href="">
-                <div class="team-image marco"></div>
-              </a>
-              <h5>Marco Jalili</h5>
-              <p>Frontend developer @BioMérieux</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
-  </main>
+</main>
 
-  <footer class="page-footer green" id="footer">
+<footer class="page-footer green" id="footer">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12 footer__contact">
-          <h5 class="white-text">Contact Us</h5>
-          <p class="white-text">If you have any questions, would like to become a mentor, sponsor an event or want to be involved in some way, drop us a line to  <a href="mailto:brisbane@nodegirls.com.au" class="footer__mailto">brisbane@nodegirls.com.au</a>.</p>
-        </div>
+        <div class="row">
+            <div class="col l6 s12 footer__contact">
+                <h5 class="white-text">Contact Us</h5>
+                <p class="white-text">If you have any questions, would like to become a mentor, sponsor an event or want
+                    to be involved in some way, drop us a line to <a href="mailto:brisbane@nodegirls.com.au"
+                                                                     class="footer__mailto">brisbane@nodegirls.com.au</a>.
+                </p>
+            </div>
 
-        <div class="col l6 s12">
-          <ul class="social-icons">
-            <li class="social-icons__icon"><a class="white-text" href="https://twitter.com/NodeGirlsBri"><i class="fa fa-twitter fa-3x"></i></a></li>
-            <li class="social-icons__icon"><a class="white-text" href="https://github.com/node-girls-australia"><i class="fa fa-github fa-3x"></i></a></li>
-            <li class="social-icons__icon"><a class="white-text" href="mailto:brisbane@nodegirls.com.au"><i class="fa fa-envelope-o fa-3x"></i></a></li>
-          </ul>
+            <div class="col l6 s12">
+                <ul class="social-icons">
+                    <li class="social-icons__icon"><a class="white-text" href="https://twitter.com/NodeGirlsBri"><i
+                            class="fa fa-twitter fa-3x"></i></a></li>
+                    <li class="social-icons__icon"><a class="white-text" href="https://github.com/node-girls-australia"><i
+                            class="fa fa-github fa-3x"></i></a></li>
+                    <li class="social-icons__icon"><a class="white-text" href="mailto:brisbane@nodegirls.com.au"><i
+                            class="fa fa-envelope-o fa-3x"></i></a></li>
+                </ul>
+            </div>
         </div>
-      </div>
     </div>
     <div class="footer-copyright">
-      <div class="container white-text">
-      Made by Node Girls, with thanks to <a class="grey-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
+        <div class="container white-text">
+            Made by Node Girls, with thanks to <a class="grey-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
     </div>
-  </footer>
+</footer>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
 
-  </body>
+</body>
 </html>

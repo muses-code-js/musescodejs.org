@@ -26,6 +26,7 @@ p {
 .icon-block {
     padding: 0 15px;
 }
+
 .icon-block .material-icons {
     font-size: inherit;
 }
@@ -224,6 +225,7 @@ p {
         opacity: 0.75;
         pointer-events: auto;
     }
+
     .nav-overflow {
         display: block;
         position: fixed;
@@ -263,6 +265,7 @@ svg {
         background-color: white;
     }
 }
+
 .hero-image {
     height: 100vh;
     width: 100%;
@@ -342,6 +345,7 @@ svg {
 .sponsors {
     padding: 50px 0;
 }
+
 .sponsors ul.row {
     margin-top: 50px;
     display: flex;
@@ -349,6 +353,7 @@ svg {
     justify-content: center;
     align-content: center;
 }
+
 .sponsors ul li {
     width: 20%;
     margin-bottom: 50px;
@@ -358,6 +363,7 @@ svg {
     align-content: center;
     align-items: center;
 }
+
 .sponsors ul li img {
     width: 100%;
     height: auto;
@@ -374,6 +380,7 @@ svg {
     padding: 50px 0;
     border-top: 1px solid #efefef;
 }
+
 .partners ul.row {
     margin-top: 50px;
     display: flex;
@@ -381,6 +388,7 @@ svg {
     justify-content: center;
     align-content: center;
 }
+
 .partners ul li {
     width: 20%;
     margin-bottom: 50px;
@@ -390,6 +398,7 @@ svg {
     align-content: center;
     align-items: center;
 }
+
 .partners ul li img {
     width: auto;
     height: 100%;
@@ -397,6 +406,7 @@ svg {
     margin: 0 auto;
     filter: grayscale(100%);
 }
+
 /***************************
   FOOTER
 ***************************/
@@ -672,27 +682,35 @@ footer .social-icons__icon {
 .jamie {
     background-image: url("../images/team/brisbane/jamie.png");
 }
+
 .greg {
     background-image: url("../images/team/brisbane/greg.jpg");
 }
+
 .tracy {
     background-image: url("../images/team/brisbane/tracy.png");
 }
+
 .anna {
     background-image: url("../images/team/brisbane/anna.jpg");
 }
+
 .maurice {
     background-image: url("../images/team/brisbane/maurice.jpg");
 }
+
 .sorcha {
     background-image: url("../images/team/brisbane/sorcha.png");
 }
+
 .ally {
     background-image: url("../images/team/brisbane/ally.jpg");
 }
+
 .mark {
     background-image: url("../images/team/brisbane/mark.jpg");
 }
+
 .sandra {
     background-image: url("../images/team/brisbane/sandra.jpg");
 }
@@ -700,9 +718,11 @@ footer .social-icons__icon {
 .shaw {
     background-image: url("../images/team/brisbane/shaw.png");
 }
+
 .komal {
     background-image: url("../images/team/brisbane/komal.png");
 }
+
 .randall {
     background-image: url("../images/team/brisbane/Randall.jpg");
 }
@@ -722,6 +742,7 @@ footer .social-icons__icon {
 .mark-reid {
     background-image: url("../images/team/melbourne/mark.jpg");
 }
+
 .sara {
     background-image: url("../images/team/melbourne/sara.jpeg");
 }
@@ -733,6 +754,7 @@ footer .social-icons__icon {
 .vicki {
     background-image: url("../images/team/brisbane/vicki.jpg");
 }
+
 /***************************
   PERTH TEAM
 ***************************/
