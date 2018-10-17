@@ -10,3 +10,4 @@ http://nodegirls.com.au/melbourne-event.html
 http://nodegirls.com.au/contacts.html
 http://nodegirls.com.au/brisbane.html
 http://nodegirls.com.au/brisbane-event.html
+http://nodegirls.com.au/perth.html

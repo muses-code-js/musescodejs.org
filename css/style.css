@@ -12,7 +12,7 @@ body {
 
 nav ul a,
 nav .brand-logo {
-    color: #444;
+    color: #7985F0;
 }
 
 main {
@@ -37,6 +37,7 @@ p {
 
 .chip {
     margin: 10px 0px;
+    background-color: #FFC962;
 }
 
 /*materialise override*/
@@ -78,10 +79,6 @@ p {
     background-image: url(../images/background1.jpg);
 }
 
-.parallax-background--second-image {
-    background-image: url(../images/background2.jpg);
-}
-
 /***************************
   NAV BAR
 ***************************/
@@ -108,12 +105,13 @@ p {
 
 .nav-list__list-item a {
     font-size: 150%;
-    color: #616161;
+    color: #464646;
 }
 
 .nav-list__logo {
     width: 248px;
     line-height: normal;
+    text-align: center;
 }
 
 /***************************
@@ -144,7 +142,7 @@ p {
         background-color: transparent;
         border: none;
         outline: none;
-        color: #4caf50;
+        color: #7985F0;
         text-align: left;
         display: block;
         padding: 5px 0 0 10px;
@@ -245,8 +243,15 @@ p {
   LOGO
 ***************************/
 svg {
-    height: 100%;
-    width: 100%;
+    height: 60%;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+svg.small {
+    height: 35%;
+    width: 35%;
+    margin-top: 5px;
 }
 
 /***************************
@@ -321,7 +326,7 @@ svg {
 }
 
 .join-button {
-    border: 1.5px solid #4caf50;
+    border: 1.5px solid #7985F0;
     color: #212121;
 }
 
@@ -413,6 +418,7 @@ svg {
 
 footer.page-footer {
     margin: 0;
+    background-color: #DA3296;
 }
 
 .row .footer__contact {
@@ -821,7 +827,7 @@ footer .social-icons__icon {
 
 a.green-text,
 a.grey-text {
-    border-bottom: 1px dashed #66bb6a;
+    border-bottom: 1px dashed #7985F0;
 }
 
 .inline-clock-icon {
@@ -835,6 +841,14 @@ a.grey-text {
     width: 16px;
 }
 
+.header {
+    color: #DA3296;
+}
+
+.header.light, .header.time {
+    color: #7985F0;
+}
+
 /*MailChimp subscribe form*/
 
 #mc_embed_signup {
@@ -843,11 +857,11 @@ a.grey-text {
 }
 
 #mc_embed_signup .button {
-    background-color: #4caf50 !important;
+    background-color: #7985F0 !important;
 }
 
 #mc_embed_signup .button:hover {
-    background-color: #528e54 !important;
+    background-color: #7985F0 !important;
 }
 
 .mc-field-group {
