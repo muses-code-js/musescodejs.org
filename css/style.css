@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+html {
+    font-family: Avenir, sans-serif;
+}
+
 body {
     background: white;
 }
@@ -843,6 +847,7 @@ a.grey-text {
 
 .header {
     color: #DA3296;
+    font-family: Didot;
 }
 
 .header.light, .header.time {
