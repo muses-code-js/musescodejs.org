@@ -529,8 +529,12 @@ footer .social-icons__icon {
     background-image: url("../images/team/female.png");
 }
 
+.male {
+    background-image: url("../images/team/male.png");
+}
+
 .tanya {
-    background-image: url("../images/team/sydney/tanya.jpeg");
+    background-image: url("../images/team/sydney/tanya.jpg");
 }
 
 .jessica {
@@ -586,11 +590,11 @@ footer .social-icons__icon {
 }
 
 .leah {
-    background-image: url("../images/team/sydney/leah.jpeg");
+    background-image: url("../images/team/sydney/leah.jpg");
 }
 
 .julia {
-    background-image: url("../images/team/sydney/julia.jpeg");
+    background-image: url("../images/team/sydney/julia.jpg");
 }
 
 /***************************
@@ -614,7 +618,7 @@ footer .social-icons__icon {
 }
 
 .valeria {
-    background-image: url("../images/team/melbourne/valeria.png");
+    background-image: url("../images/team/melbourne/valeria.jpg");
 }
 
 .valentin {
@@ -641,20 +645,12 @@ footer .social-icons__icon {
     background-image: url("../images/team/brisbane/laura.jpg");
 }
 
-.laurab {
-    background-image: url("../images/team/brisbane/laurab.jpg");
-}
-
 .armagan {
-    background-image: url("../images/team/brisbane/armagan.png");
+    background-image: url("../images/team/brisbane/armagan.jpg");
 }
 
 .joshua {
     background-image: url("../images/team/brisbane/joshua.jpg");
-}
-
-.tim {
-    background-image: url("../images/team/brisbane/tim.jpg");
 }
 
 .dana {
@@ -669,20 +665,8 @@ footer .social-icons__icon {
     background-image: url("../images/team/brisbane/jenny.jpg");
 }
 
-.ian {
-    background-image: url("../images/team/brisbane/ian.jpg");
-}
-
-.seema {
-    background-image: url("../images/team/brisbane/seema.jpg");
-}
-
-.ohiaia {
-    background-image: url("../images/team/brisbane/ohiaia.png");
-}
-
 .sammy {
-    background-image: url("../images/team/brisbane/sammy.png");
+    background-image: url("../images/team/brisbane/sammy.jpg");
 }
 
 .nathan {
@@ -690,7 +674,7 @@ footer .social-icons__icon {
 }
 
 .jamie {
-    background-image: url("../images/team/brisbane/jamie.png");
+    background-image: url("../images/team/brisbane/jamie.jpg");
 }
 
 .greg {
@@ -698,7 +682,7 @@ footer .social-icons__icon {
 }
 
 .tracy {
-    background-image: url("../images/team/brisbane/tracy.png");
+    background-image: url("../images/team/brisbane/tracy.jpg");
 }
 
 .anna {
@@ -710,7 +694,7 @@ footer .social-icons__icon {
 }
 
 .sorcha {
-    background-image: url("../images/team/brisbane/sorcha.png");
+    background-image: url("../images/team/brisbane/sorcha.jpg");
 }
 
 .ally {
@@ -726,11 +710,11 @@ footer .social-icons__icon {
 }
 
 .shaw {
-    background-image: url("../images/team/brisbane/shaw.png");
+    background-image: url("../images/team/brisbane/shaw.jpg");
 }
 
 .komal {
-    background-image: url("../images/team/brisbane/komal.png");
+    background-image: url("../images/team/brisbane/komal.jpg");
 }
 
 .randall {
@@ -742,7 +726,7 @@ footer .social-icons__icon {
 }
 
 .ashwin {
-    background-image: url("../images/team/brisbane/ashwin.jpeg");
+    background-image: url("../images/team/brisbane/ashwin.jpg");
 }
 
 .marco {
@@ -754,7 +738,7 @@ footer .social-icons__icon {
 }
 
 .sara {
-    background-image: url("../images/team/melbourne/sara.jpeg");
+    background-image: url("../images/team/melbourne/sara.jpg");
 }
 
 .yali {
@@ -774,7 +758,7 @@ footer .social-icons__icon {
 }
 
 .donna {
-    background-image: url("../images/team/perth/donna-edwards.png");
+    background-image: url("../images/team/perth/donna-edwards.jpg");
 }
 
 /***************************
