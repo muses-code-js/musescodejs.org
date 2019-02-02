@@ -486,6 +486,11 @@ footer .social-icons__icon {
     background-image: url("../images/chapters/perth.jpg");
 }
 
+.city {
+    background-image: url("../images/chapters/city.jpg");
+    border: 1px solid black;
+}
+
 /***************************
   TEAM
 ***************************/
