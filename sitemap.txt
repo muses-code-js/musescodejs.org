@@ -4,6 +4,7 @@ https://musescodejs.org/events.html
 https://musescodejs.org/resources.html
 https://musescodejs.org/sydney.html
 https://musescodejs.org/sydney-event.html
+https://musescodejs.org/sydney-dojo.html
 https://musescodejs.org/index.html
 https://musescodejs.org/melbourne.html
 https://musescodejs.org/melbourne-event.html
