@@ -247,8 +247,7 @@ p {
   LOGO
 ***************************/
 svg {
-    height: 60%;
-    width: 60%;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
 
