@@ -12,3 +12,5 @@ https://musescodejs.org/contacts.html
 https://musescodejs.org/brisbane.html
 https://musescodejs.org/brisbane-event.html
 https://musescodejs.org/perth.html
+https://musescodejs.org/hobart.html
+https://musescodejs.org/hobart-event.html
