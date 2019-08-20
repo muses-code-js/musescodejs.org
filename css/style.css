@@ -915,3 +915,7 @@ a.grey-text {
     background: url("../images/github-icon.svg") no-repeat center;
     background-size: contain;
 }
+
+.marked-list {
+    list-style-type: disc;
+}
