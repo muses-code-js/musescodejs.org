@@ -17,3 +17,5 @@ https://musescodejs.org/hobart-event.html
 https://musescodejs.org/code-of-conduct.html
 https://musescodejs.org/canberra.html
 https://musescodejs.org/canberra-event.html
+https://musescodejs.org/wollongong.html
+https://musescodejs.org/wollongong-event.html
