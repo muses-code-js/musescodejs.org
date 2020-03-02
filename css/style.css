@@ -947,6 +947,17 @@ a.grey-text {
     background-size: contain;
 }
 
+.fa-instagram {
+    background: url("../images/instagram.svg") no-repeat center;
+    background-size: coiterntain;
+}
+
+.fa-linkedin {
+    background: url("../images/linkedin.svg") no-repeat center;
+    background-size: coiterntain;
+}
+
+
 .fa-github {
     background: url("../images/github-icon.svg") no-repeat center;
     background-size: contain;
