@@ -617,36 +617,56 @@ footer .social-icons__icon {
   MELBOURNE TEAM
 ***************************/
 
-.daniel {
-    background-image: url("../images/team/melbourne/daniel.jpg");
+.linda {
+    background-image: url("../images/team/melbourne/linda-l.jpg")
 }
 
-.bron {
-    background-image: url("../images/team/melbourne/bron.jpg");
+.andie {
+    background-image: url("../images/team/melbourne/andie-m.jpg")
 }
 
-.isabell-kiral-korneck {
-    background-image: url("../images/team/melbourne/isabell-kiral-korneck.jpg");
+.bec {
+    background-image: url("../images/team/melbourne/bec-p.jpg")
 }
 
-.nicole {
-    background-image: url("../images/team/melbourne/nicole.jpg");
+.gwenny {
+    background-image: url("../images/team/melbourne/gwenny-w.jpg")
+}
+
+.janelle {
+    background-image: url("../images/team/melbourne/janelle-d.jpg")
+}
+
+.kushla {
+    background-image: url("../images/team/melbourne/kushla-e.jpg")
+}
+
+.mahsa {
+    background-image: url("../images/team/melbourne/mahsa-m.jpg")
+}
+
+.nikki {
+    background-image: url("../images/team/melbourne/nikki-r.jpg")
+}
+
+.sophie {
+    background-image: url("../images/team/melbourne/sophie-m.jpg")
+}
+
+.veronica {
+    background-image: url("../images/team/melbourne/veronica-m.jpg")
 }
 
 .valeria {
-    background-image: url("../images/team/melbourne/valeria.jpg");
+    background-image: url("../images/team/melbourne/valeria-dg.jpg");
 }
 
 .valentin {
-    background-image: url("../images/team/melbourne/valentin.jpg");
+    background-image: url("../images/team/melbourne/archive/valentin.jpg");
 }
 
-.tya {
-    background-image: url("../images/team/melbourne/tya.jpg");
-}
-
-.kylie {
-    background-image: url("../images/team/melbourne/kylie.jpg");
+.sirani {
+    background-image: url("../images/team/melbourne/sirani-mn.jpeg");
 }
 
 /***************************
@@ -926,6 +946,17 @@ a.grey-text {
     background: url("../images/facebook.svg") no-repeat center;
     background-size: contain;
 }
+
+.fa-instagram {
+    background: url("../images/instagram.svg") no-repeat center;
+    background-size: coiterntain;
+}
+
+.fa-linkedin {
+    background: url("../images/linkedin.svg") no-repeat center;
+    background-size: coiterntain;
+}
+
 
 .fa-github {
     background: url("../images/github-icon.svg") no-repeat center;
