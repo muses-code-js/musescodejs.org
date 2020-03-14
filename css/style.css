@@ -493,6 +493,10 @@ footer .social-icons__icon {
     background-image: url("../images/chapters/wollongong.jpeg");
 }
 
+.canberra {
+    background-image: url("../images/chapters/canberra.jpg");
+}
+
 .city {
     background-image: url("../images/chapters/city.jpg");
     border: 1px solid black;
@@ -827,6 +831,14 @@ footer .social-icons__icon {
 
 .molly-kirkpatrick {
     background-image: url("../images/team/wollongong/molly.png");
+}
+
+/***************************
+  CANBERRA TEAM
+***************************/
+
+.anna-tito {
+    background-image: url("../images/team/canberra/AnnaTito.png");
 }
 
 /***************************
