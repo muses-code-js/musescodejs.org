@@ -489,6 +489,10 @@ footer .social-icons__icon {
     background-image: url("../images/chapters/hobart.jpg");
 }
 
+.wollongong {
+    background-image: url("../images/chapters/wollongong.jpeg");
+}
+
 .city {
     background-image: url("../images/chapters/city.jpg");
     border: 1px solid black;
@@ -811,6 +815,18 @@ footer .social-icons__icon {
 
 .madelyn {
     background-image: url("../images/team/wollongong/madelyn.jpg");
+}
+
+.emily-guer {
+    background-image: url("../images/team/wollongong/emily.jpg");
+}
+
+.bethany-cooper {
+    background-image: url("../images/team/wollongong/bethany.png");
+}
+
+.molly-kirkpatrick {
+    background-image: url("../images/team/wollongong/molly.png");
 }
 
 /***************************
