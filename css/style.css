@@ -949,12 +949,12 @@ a.grey-text {
 
 .fa-instagram {
     background: url("../images/instagram.svg") no-repeat center;
-    background-size: coiterntain;
+    background-size: contain;
 }
 
 .fa-linkedin {
     background: url("../images/linkedin.svg") no-repeat center;
-    background-size: coiterntain;
+    background-size: contain;
 }
 
 
