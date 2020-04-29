@@ -19,3 +19,4 @@ https://musescodejs.org/canberra.html
 https://musescodejs.org/canberra-event.html
 https://musescodejs.org/wollongong.html
 https://musescodejs.org/wollongong-event.html
+https://musescodejs.org/muses-careers.html
