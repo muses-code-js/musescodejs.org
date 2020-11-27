@@ -1,283 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
 
   <meta property="og:image" content="https://musescodejs.org/images/background1.jpg">
   <meta property="og:url" content="https://musescodejs.org/hobart.html">
   <meta property="og:title" content="Muses Code JS - JavaScript and Node workshops for women in Hobart">
   <meta property="og:description"
-        content="We believe that any person should try programming at least once in their life. Therefore we created a community where in friendly atmosphere with great vibe you can try programming first time or if you already code - learn something new about JavaScript and/or Node.js.">
+    content="We believe that any person should try programming at least once in their life. Therefore we created a community where in friendly atmosphere with great vibe you can try programming first time or if you already code - learn something new about JavaScript and/or Node.js.">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@MCJSHobart">
   <meta name="twitter:creator" content="@ButenkoMe">
   <meta name="twitter:title" content="Muses Code JS - coding workshops for women, non-binary and trans">
   <meta name="twitter:description"
-        content="We believe that any person should try programming at least once in their life. Therefore we created a community where in friendly atmosphere with great vibe you can try programming first time or if you already code - learn something new about JavaScript and/or Node.js.">
+    content="We believe that any person should try programming at least once in their life. Therefore we created a community where in friendly atmosphere with great vibe you can try programming first time or if you already code - learn something new about JavaScript and/or Node.js.">
   <meta name="twitter:image" content="https://musescodejs.org/images/background1.jpg">
   <meta name="twitter:image:alt" content="Two women coding">
 
   <title>Muses Code JS - Node workshops for women</title>
 
   <!-- CSS  -->
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
-<nav class="white">
-  <div class="nav-wrapper container">
+  <nav class="white">
+    <div class="nav-wrapper container">
 
-    <ul class="hide-on-med-and-down nav-list nav-list--with-image">
-      <li class="nav-list__list-item"><a href="chapters.html">Chapters</a></li>
-      <li class="nav-list__list-item"><a href="events.html">Events</a></li>
-      <li class="nav-list__list-item"><a href="./muses-careers.html">Careers</a></li>
-      <li class="nav-list__list-item"><a href="resources.html">Resources</a></li>
-      <li class="nav-list__list-item"><a href="./contacts.html">Contact Us</a></li>
-      <li class="nav-list__logo"><a href="./">
-        <svg xmlns="http://www.w3.org/2000/svg" width="75" height="52">
-          <g fill="none" fill-rule="evenodd">
-            <path fill="#C88AFF" fill-rule="nonzero" d="M4.184 35.504a8.363 8.363 0 1 0 8.362-14.486 8.362 8.362 0 1 0-8.362 14.486z"/>
-            <path fill="#7987E9" d="M44.11 18.84c-.158.278-.33.543-.514.794L36.27 32.726l-.053-.03c-2.442 3.447-7.124 4.523-10.835 2.359-3.667-2.14-5.096-6.69-3.456-10.522l-.01-.005.055-.098a8.443 8.443 0 0 1 .764-1.364l6.97-12.456.034.019.073-.13c2.279-3.987 7.327-5.353 11.276-3.05 3.948 2.304 5.302 7.403 3.023 11.391z"/>
-            <path fill="#CA4590" d="M73.134 12.364c2.164-3.968.787-8.969-3.13-11.244C66.036-1.185 60.96.182 58.67 4.174l-.099.177-11.26 19.62a9.26 9.26 0 0 0-.15.26l-.009.017-.009.016c-2.16 3.968-.784 8.967 3.132 11.241 3.915 2.275 8.908.977 11.244-2.89l.093-.164 11.527-20.085-.004-.002z"/>
-            <path fill="#1D263B" fill-rule="nonzero" d="M.452 46.705h1.354l1.332 3.618 1.347-3.618h1.34v5.164h-.846V47.58h-.014L3.449 51.87h-.62L1.311 47.58h-.014v4.289H.452v-5.164zm19.318 3.268c0 .31-.052.593-.156.846a1.9 1.9 0 0 1-.423.634 1.9 1.9 0 0 1-.634.408c-.245.093-.51.139-.797.139-.287 0-.552-.046-.797-.139a1.979 1.979 0 0 1-.641-.408 1.9 1.9 0 0 1-.423-.634 2.31 2.31 0 0 1-.148-.846v-3.268h.888v3.238c0 .127.019.26.056.401.038.137.1.263.184.38.09.116.204.214.345.291.146.073.325.11.536.11.212 0 .388-.037.529-.11a1.1 1.1 0 0 0 .536-.671c.037-.14.056-.274.056-.4v-3.239h.889v3.268zm12.35-2.16a.8.8 0 0 0-.38-.305 1.274 1.274 0 0 0-.797-.066.849.849 0 0 0-.26.117.606.606 0 0 0-.255.51c0 .175.059.309.176.401.118.093.264.173.438.24.174.07.364.135.57.198.208.063.398.15.572.262.174.112.32.26.437.445.117.185.176.43.176.737 0 .277-.05.52-.148.729a1.466 1.466 0 0 1-.402.51 1.667 1.667 0 0 1-.578.307 2.362 2.362 0 0 1-.698.102c-.31 0-.609-.054-.895-.16a1.726 1.726 0 0 1-.74-.54l.67-.671c.107.17.248.304.422.401.179.092.367.139.564.139.104 0 .207-.015.31-.044a.949.949 0 0 0 .282-.131.688.688 0 0 0 .205-.22.63.63 0 0 0 .077-.313c0-.19-.058-.335-.176-.437a1.474 1.474 0 0 0-.437-.256 6.081 6.081 0 0 0-.57-.204 2.45 2.45 0 0 1-.572-.255 1.468 1.468 0 0 1-.438-.438c-.117-.185-.176-.43-.176-.736 0-.268.052-.499.155-.693.108-.195.247-.355.416-.482.174-.13.372-.228.593-.291a2.447 2.447 0 0 1 1.438.03c.25.082.473.218.67.407l-.649.708zm10.415-1.108h3.307v.832h-2.418v1.269h2.291v.831h-2.291v1.4h2.545v.832h-3.434v-5.164zm15.57 1.109a.8.8 0 0 0-.38-.306 1.274 1.274 0 0 0-.797-.066.853.853 0 0 0-.26.117.612.612 0 0 0-.255.51.48.48 0 0 0 .177.401c.117.093.263.173.437.24a7.8 7.8 0 0 0 .571.198c.207.063.397.15.571.262.174.112.32.26.437.445.118.185.177.43.177.737 0 .277-.05.52-.148.729a1.466 1.466 0 0 1-.402.51 1.666 1.666 0 0 1-.579.307 2.36 2.36 0 0 1-.698.102c-.31 0-.608-.054-.895-.16a1.73 1.73 0 0 1-.74-.54l.67-.671c.107.17.248.304.422.401.18.092.367.139.565.139.103 0 .206-.015.31-.044a.947.947 0 0 0 .282-.131.691.691 0 0 0 .204-.22.63.63 0 0 0 .078-.313c0-.19-.059-.335-.176-.437a1.478 1.478 0 0 0-.438-.256 6.059 6.059 0 0 0-.57-.204 2.454 2.454 0 0 1-.572-.255 1.464 1.464 0 0 1-.437-.438c-.117-.185-.176-.43-.176-.736 0-.268.052-.499.155-.693.108-.195.247-.355.416-.482.174-.13.371-.228.592-.291a2.447 2.447 0 0 1 1.439.03c.249.082.472.218.67.407l-.65.708z"/>
-          </g>
-        </svg>
-      </a></li>
-    </ul>
-
-    <!--hamburger menu-->
-    <a class="nav-button" tabindex="0">☰</a>
-    <span class="nav-close" tabindex="0">☰</span>
-
-    <div class="nav-frame">
-      <!-- Side nav for mobile - menu links MUST BE REPEATED HERE,
-      hidden in non-mobile settings-->
-      <ul class="mobile-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="chapters.html">Chapters</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="muses-careers.html">Careers</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="./contacts.html">Contact Us</a></li>
+      <ul class="hide-on-med-and-down nav-list nav-list--with-image">
+        <li class="nav-list__list-item"><a href="chapters.html">Chapters</a></li>
+        <li class="nav-list__list-item"><a href="events.html">Events</a></li>
+        <li class="nav-list__list-item"><a href="./muses-careers.html">Careers</a></li>
+        <li class="nav-list__list-item"><a href="resources.html">Resources</a></li>
+        <li class="nav-list__list-item"><a href="./contacts.html">Contact Us</a></li>
+        <li class="nav-list__logo"><a href="./">
+            <svg xmlns="http://www.w3.org/2000/svg" width="75" height="52">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#C88AFF" fill-rule="nonzero"
+                  d="M4.184 35.504a8.363 8.363 0 1 0 8.362-14.486 8.362 8.362 0 1 0-8.362 14.486z" />
+                <path fill="#7987E9"
+                  d="M44.11 18.84c-.158.278-.33.543-.514.794L36.27 32.726l-.053-.03c-2.442 3.447-7.124 4.523-10.835 2.359-3.667-2.14-5.096-6.69-3.456-10.522l-.01-.005.055-.098a8.443 8.443 0 0 1 .764-1.364l6.97-12.456.034.019.073-.13c2.279-3.987 7.327-5.353 11.276-3.05 3.948 2.304 5.302 7.403 3.023 11.391z" />
+                <path fill="#CA4590"
+                  d="M73.134 12.364c2.164-3.968.787-8.969-3.13-11.244C66.036-1.185 60.96.182 58.67 4.174l-.099.177-11.26 19.62a9.26 9.26 0 0 0-.15.26l-.009.017-.009.016c-2.16 3.968-.784 8.967 3.132 11.241 3.915 2.275 8.908.977 11.244-2.89l.093-.164 11.527-20.085-.004-.002z" />
+                <path fill="#1D263B" fill-rule="nonzero"
+                  d="M.452 46.705h1.354l1.332 3.618 1.347-3.618h1.34v5.164h-.846V47.58h-.014L3.449 51.87h-.62L1.311 47.58h-.014v4.289H.452v-5.164zm19.318 3.268c0 .31-.052.593-.156.846a1.9 1.9 0 0 1-.423.634 1.9 1.9 0 0 1-.634.408c-.245.093-.51.139-.797.139-.287 0-.552-.046-.797-.139a1.979 1.979 0 0 1-.641-.408 1.9 1.9 0 0 1-.423-.634 2.31 2.31 0 0 1-.148-.846v-3.268h.888v3.238c0 .127.019.26.056.401.038.137.1.263.184.38.09.116.204.214.345.291.146.073.325.11.536.11.212 0 .388-.037.529-.11a1.1 1.1 0 0 0 .536-.671c.037-.14.056-.274.056-.4v-3.239h.889v3.268zm12.35-2.16a.8.8 0 0 0-.38-.305 1.274 1.274 0 0 0-.797-.066.849.849 0 0 0-.26.117.606.606 0 0 0-.255.51c0 .175.059.309.176.401.118.093.264.173.438.24.174.07.364.135.57.198.208.063.398.15.572.262.174.112.32.26.437.445.117.185.176.43.176.737 0 .277-.05.52-.148.729a1.466 1.466 0 0 1-.402.51 1.667 1.667 0 0 1-.578.307 2.362 2.362 0 0 1-.698.102c-.31 0-.609-.054-.895-.16a1.726 1.726 0 0 1-.74-.54l.67-.671c.107.17.248.304.422.401.179.092.367.139.564.139.104 0 .207-.015.31-.044a.949.949 0 0 0 .282-.131.688.688 0 0 0 .205-.22.63.63 0 0 0 .077-.313c0-.19-.058-.335-.176-.437a1.474 1.474 0 0 0-.437-.256 6.081 6.081 0 0 0-.57-.204 2.45 2.45 0 0 1-.572-.255 1.468 1.468 0 0 1-.438-.438c-.117-.185-.176-.43-.176-.736 0-.268.052-.499.155-.693.108-.195.247-.355.416-.482.174-.13.372-.228.593-.291a2.447 2.447 0 0 1 1.438.03c.25.082.473.218.67.407l-.649.708zm10.415-1.108h3.307v.832h-2.418v1.269h2.291v.831h-2.291v1.4h2.545v.832h-3.434v-5.164zm15.57 1.109a.8.8 0 0 0-.38-.306 1.274 1.274 0 0 0-.797-.066.853.853 0 0 0-.26.117.612.612 0 0 0-.255.51.48.48 0 0 0 .177.401c.117.093.263.173.437.24a7.8 7.8 0 0 0 .571.198c.207.063.397.15.571.262.174.112.32.26.437.445.118.185.177.43.177.737 0 .277-.05.52-.148.729a1.466 1.466 0 0 1-.402.51 1.666 1.666 0 0 1-.579.307 2.36 2.36 0 0 1-.698.102c-.31 0-.608-.054-.895-.16a1.73 1.73 0 0 1-.74-.54l.67-.671c.107.17.248.304.422.401.18.092.367.139.565.139.103 0 .206-.015.31-.044a.947.947 0 0 0 .282-.131.691.691 0 0 0 .204-.22.63.63 0 0 0 .078-.313c0-.19-.059-.335-.176-.437a1.478 1.478 0 0 0-.438-.256 6.059 6.059 0 0 0-.57-.204 2.454 2.454 0 0 1-.572-.255 1.464 1.464 0 0 1-.437-.438c-.117-.185-.176-.43-.176-.736 0-.268.052-.499.155-.693.108-.195.247-.355.416-.482.174-.13.371-.228.592-.291a2.447 2.447 0 0 1 1.439.03c.249.082.472.218.67.407l-.65.708z" />
+              </g>
+            </svg>
+          </a></li>
       </ul>
-    </div>
-    <button class="nav-overflow"></button>
-  </div>
-</nav>
 
-<main>
+      <!--hamburger menu-->
+      <a class="nav-button" tabindex="0">☰</a>
+      <span class="nav-close" tabindex="0">☰</span>
 
-  <div class="section no-pad-bot">
-    <div class="container">
-      <div class="why-container center">
-        <h3 class="header center">Hobart</h3>
-        <hr class="why-text-container__divider"/>
-        <div class="row center">
-          <h5 class="header col s12 light">
-            Muses Hobart has been running since July 2019.
-          </h5>
-        </div>
-        <ul class="social-icons">
-          <li class="social-icons__icon"><a class="black-text" href="https://twitter.com/MCJSHobart"><i
-            class="fa fa-twitter fa-3x"></i></a></li>
-          <li class="social-icons__icon"><a class="black-text"
-                                            href="http://www.facebook.com/MusesCodeJS"><i
-            class="fa fa-facebook fa-3x"></i></a></li>
+      <div class="nav-frame">
+        <!-- Side nav for mobile - menu links MUST BE REPEATED HERE,
+      hidden in non-mobile settings-->
+        <ul class="mobile-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="chapters.html">Chapters</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="muses-careers.html">Careers</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="./contacts.html">Contact Us</a></li>
         </ul>
       </div>
-      <img class="why-image" src="images/chapters/brisbane-profile.jpg" alt="Group photo of attendees"/>
+      <button class="nav-overflow"></button>
+    </div>
+  </nav>
 
-      <!--   Upcoming Events Section   -->
-      <h3 class="header center">Upcoming Events</h3>
-      <div class="event-container">
-        <h5 class="header light event-container__header">Tuesday 15<sup>th</sup> December 2020</h5>
-        <h5 class="header time">
-                <span class="inline-clock-icon">
-                    <svg width="11" height="11" viewBox="0 0 11 11"><path
-                      d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z"></path></svg>
-                </span>
-          18:00 - 19:30
-        </h5>
-        <div class="event">
-          <div class="title">
-            Hobart Fireside Chat
-            <a href="https://forms.gle/KhLh5frrbNUfxaLa8">
-            Online event
-            </a>
+  <main>
+
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="why-container center">
+          <h3 class="header center">Hobart</h3>
+          <hr class="why-text-container__divider" />
+          <div class="row center">
+            <h5 class="header col s12 light">
+              Muses Hobart has been running since July 2019.
+            </h5>
           </div>
+          <ul class="social-icons">
+            <li class="social-icons__icon"><a class="black-text" href="https://twitter.com/MCJSHobart"><i
+                  class="fa fa-twitter fa-3x"></i></a></li>
+            <li class="social-icons__icon"><a class="black-text" href="http://www.facebook.com/MusesCodeJS"><i
+                  class="fa fa-facebook fa-3x"></i></a></li>
+          </ul>
+        </div>
+        <img class="why-image" src="images/chapters/brisbane-profile.jpg" alt="Group photo of attendees" />
 
-          <p class="flow-text">
-            Muses are back in Hobart! Join us for an online session of inspirational talks. If you want to be involved in anyway contact us on hobart@musescodejs.org
-          </p>
-
-          <div class="row">
-            <div class="organisers-container col m6">
-              <a href="https://www.linkedin.com/in/tania-tkachuk-335b2983/">
-                <div class="team-image team-image__small tania"></div>
+        <!--   Upcoming Events Section   -->
+        <h3 class="header center">Upcoming Events</h3>
+        <div class="event-container">
+          <h5 class="header light event-container__header">Tuesday 15<sup>th</sup> December 2020</h5>
+          <h5 class="header time">
+            <span class="inline-clock-icon">
+              <svg width="11" height="11" viewBox="0 0 11 11">
+                <path
+                  d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z">
+                </path>
+              </svg>
+            </span>
+            18:00 - 19:30
+          </h5>
+          <div class="event">
+            <div class="title">
+              Hobart Fireside Chat
+              <a href="https://forms.gle/KhLh5frrbNUfxaLa8">
+                Online event
               </a>
+            </div>
+
+            <p class="flow-text">
+              Muses are back in Hobart! Join us for an online session of inspirational talks. If you want to be involved
+              in anyway contact us on hobart@musescodejs.org
+            </p>
+
+            <div class="row">
+              <div class="organisers-container col m6">
+                <a href="https://www.linkedin.com/in/tania-tkachuk-335b2983/">
+                  <div class="team-image team-image__small tania"></div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
 
-      <!--   Past Events Section   -->
-      <h3 class="header center">Past Events</h3>
-      <div class="event-container">
-        <h5 class="header light event-container__header"> March 2020</h5>
-        <h5 class="header time">
-                <span class="inline-clock-icon">
-                    <svg width="11" height="11" viewBox="0 0 11 11"><path
-                      d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z"></path></svg>
-                </span>
-          10:00 - 16:00
-        </h5>
-        <div class="event">
-          <div class="title">
-            Learn to Code
-            at TBC
-            <!--<a href="https://goo.gl/maps/iAD2c1Mr6z3NbJd49">-->
-            <!--LiveTiles-->
-            <!--</a>-->
-          </div>
-
-          <p class="flow-text">
-            Introduction to JavaScript, No prior knowledge of coding is needed. All information and registration
-            will be announced in February. If you want to be involved in anyway contact us on hobart@musescodejs.org
-          </p>
-
-          <div class="row">
-            <div class="organisers-container col m6">
-              <a href="https://twitter.com/ButenkoMe">
-                <div class="team-image team-image__small tanya"></div>
-              </a>
-            </div>
-            <div class="col m6 sponsors-container">
-              <!--<a href="https://www.livetiles.nyc/contact-us">-->
-              <!--<img class="sponsor" src="images/sponsors/livetiles-logo.png" alt="LiveTiles logo">-->
+        <!--   Past Events Section   -->
+        <h3 class="header center">Past Events</h3>
+        <div class="event-container">
+          <h5 class="header light event-container__header"> March 2020</h5>
+          <h5 class="header time">
+            <span class="inline-clock-icon">
+              <svg width="11" height="11" viewBox="0 0 11 11">
+                <path
+                  d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z">
+                </path>
+              </svg>
+            </span>
+            10:00 - 16:00
+          </h5>
+          <div class="event">
+            <div class="title">
+              Learn to Code
+              at TBC
+              <!--<a href="https://goo.gl/maps/iAD2c1Mr6z3NbJd49">-->
+              <!--LiveTiles-->
               <!--</a>-->
             </div>
+
+            <p class="flow-text">
+              Introduction to JavaScript, No prior knowledge of coding is needed. All information and registration
+              will be announced in February. If you want to be involved in anyway contact us on hobart@musescodejs.org
+            </p>
+
+            <div class="row">
+              <div class="organisers-container col m6">
+                <a href="https://twitter.com/ButenkoMe">
+                  <div class="team-image team-image__small tanya"></div>
+                </a>
+              </div>
+              <div class="col m6 sponsors-container">
+                <!--<a href="https://www.livetiles.nyc/contact-us">-->
+                <!--<img class="sponsor" src="images/sponsors/livetiles-logo.png" alt="LiveTiles logo">-->
+                <!--</a>-->
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="event-container">
-        <h5 class="header light event-container__header">Saturday 17<sup>th</sup> August 2019</h5>
-        <h5 class="header time">
-                <span class="inline-clock-icon">
-                    <svg width="11" height="11" viewBox="0 0 11 11"><path
-                      d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z"></path></svg>
-                </span>
-          10:00 - 16:00
-        </h5>
-        <div class="event">
-          <div class="title">
-            Learn to Code
-            at
-            <a href="https://goo.gl/maps/iAD2c1Mr6z3NbJd49">
-              LiveTiles
-            </a>
+        <div class="event-container">
+          <h5 class="header light event-container__header">Saturday 17<sup>th</sup> August 2019</h5>
+          <h5 class="header time">
+            <span class="inline-clock-icon">
+              <svg width="11" height="11" viewBox="0 0 11 11">
+                <path
+                  d="M5.4 0C2.4 0 0 2.4 0 5.4s2.4 5.4 5.4 5.4 5.4-2.4 5.4-5.4S8.4 0 5.4 0zm3 6.8H4.7V1.7h.7L6 5.4l2.4.6v.8z">
+                </path>
+              </svg>
+            </span>
+            10:00 - 16:00
+          </h5>
+          <div class="event">
+            <div class="title">
+              Learn to Code
+              at
+              <a href="https://goo.gl/maps/iAD2c1Mr6z3NbJd49">
+                LiveTiles
+              </a>
+            </div>
+
+            <p class="flow-text">
+              Introduction to JavaScript, No prior knowledge of coding is needed. If you want to be involved in anyway
+              contact us on hobart@musescodejs.org
+            </p>
+
+            <div class="row">
+              <div class="organisers-container col m6">
+                <a href="https://twitter.com/ButenkoMe">
+                  <div class="team-image team-image__small tanya"></div>
+                </a>
+              </div>
+              <div class="col m6 sponsors-container">
+                <a href="https://www.livetiles.nyc/contact-us">
+                  <img class="sponsor" src="images/sponsors/livetiles-logo.png" alt="LiveTiles logo">
+                </a>
+              </div>
+            </div>
           </div>
+        </div>
 
-          <p class="flow-text">
-            Introduction to JavaScript, No prior knowledge of coding is needed.  If you want to be involved in anyway
-            contact us on hobart@musescodejs.org
-          </p>
-
+        <h3 class="header center">Meet the Team</h3>
+        <div class="profile-images-container">
+          <div class="row center">
+            <h5 class="header col s12">
+              Organisers
+            </h5>
+          </div>
           <div class="row">
-            <div class="organisers-container col m6">
-              <a href="https://twitter.com/ButenkoMe">
-                <div class="team-image team-image__small tanya"></div>
+            <div class="profile-container col s12 m6 l4 row center">
+              <a href="https://www.twitter.com/ButenkoMe">
+                <div class="team-image tanya"></div>
               </a>
+              <h5>Tanya Butenko</h5>
+              <p>Software engineer at Hireup</p>
             </div>
-            <div class="col m6 sponsors-container">
-              <a href="https://www.livetiles.nyc/contact-us">
-                <img class="sponsor" src="images/sponsors/livetiles-logo.png" alt="LiveTiles logo">
+            <div class="profile-container col s12 m6 l4 row center">
+              <a href="https://www.linkedin.com/in/tania-tkachuk-335b2983/">
+                <div class="team-image tania"></div>
               </a>
+              <h5>Tania Tkachuk</h5>
+              <p>Software engineer at Finder</p>
             </div>
           </div>
         </div>
-      </div>
-
-      <h3 class="header center">Meet the Team</h3>
-      <div class="profile-images-container">
-        <div class="row center">
-          <h5 class="header col s12">
-            Organisers
-          </h5>
-        </div>
-        <div class="row">
-          <div class="profile-container col s12 m6 l4 row center">
-            <a href="https://www.twitter.com/ButenkoMe">
-              <div class="team-image tanya"></div>
-            </a>
-            <h5>Tanya Butenko</h5>
-            <p>Software engineer at Hireup</p>
+        <div class="profile-images-container">
+          <div class="row center">
+            <h5 class="header col s12">
+              Mentors
+            </h5>
           </div>
-          <div class="profile-container col s12 m6 l4 row center">
-            <a href="https://www.linkedin.com/in/tania-tkachuk-335b2983/">
-              <div class="team-image tania"></div>
-            </a>
-            <h5>Tania Tkachuk</h5>
-            <p>Software engineer at Finder</p>
-          </div>
-        </div>
-      </div>
-      <div class="profile-images-container">
-        <div class="row center">
-          <h5 class="header col s12">
-            Mentors
-          </h5>
-        </div>
-        <div class="row">
-          <!-- <div class="profile-container col s12 m6 l4 row center">
+          <div class="row">
+            <!-- <div class="profile-container col s12 m6 l4 row center">
             <a href="https://www.linkedin.com/in/jennifer-reeve-0aa42912/">
               <div class="team-image jenny"></div>
             </a>
             <h5>Jennifer Reeve</h5>
             <p>.NET developer at TechnologyOne</p>
           </div> -->
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-</main>
+  </main>
 
-<footer class="page-footer" id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col l6 s12 footer__contact">
-        <h5 class="white-text">Contact Us</h5>
-        <p class="white-text">If you have any questions, would like to become a mentor, sponsor an event or want
-          to be involved in some way, drop us a line to <a href="mailto:hobart@musescodejs.org"
-                                                           class="footer__mailto">hobart@musescodejs.org</a>.
-        </p>
-        <h5><a class="white-text footer__mailto" href="code-of-conduct.html">Code of Conduct</a></h5>
-      </div>
+  <footer class="page-footer" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 footer__contact">
+          <h5 class="white-text">Contact Us</h5>
+          <p class="white-text">If you have any questions, would like to become a mentor, sponsor an event or want
+            to be involved in some way, drop us a line to <a href="mailto:hobart@musescodejs.org"
+              class="footer__mailto">hobart@musescodejs.org</a>.
+          </p>
+          <h5><a class="white-text footer__mailto" href="code-of-conduct.html">Code of Conduct</a></h5>
+        </div>
 
-      <div class="col l6 s12">
-        <ul class="social-icons">
-          <li class="social-icons__icon"><a class="white-text" href="https://twitter.com/MCJSHobart"><i
-            class="fa fa-twitter fa-3x"></i></a></li>
-          <li class="social-icons__icon"><a class="white-text" href="https://github.com/muses-code-js"><i
-            class="fa fa-github fa-3x"></i></a></li>
-          <li class="social-icons__icon"><a class="white-text" href="mailto:hobart@musescodejs.org"><i
-            class="fa fa-envelope-o fa-3x"></i></a></li>
-        </ul>
+        <div class="col l6 s12">
+          <ul class="social-icons">
+            <li class="social-icons__icon"><a class="white-text" href="https://twitter.com/MCJSHobart"><i
+                  class="fa fa-twitter fa-3x"></i></a></li>
+            <li class="social-icons__icon"><a class="white-text" href="https://github.com/muses-code-js"><i
+                  class="fa fa-github fa-3x"></i></a></li>
+            <li class="social-icons__icon"><a class="white-text" href="mailto:hobart@musescodejs.org"><i
+                  class="fa fa-envelope-o fa-3x"></i></a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="footer-copyright">
-    <div class="container white-text">
-      Made by Muses Code JS, with thanks to <a class="grey-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+    <div class="footer-copyright">
+      <div class="container white-text">
+        Made by Muses Code JS, with thanks to <a class="grey-text text-lighten-3"
+          href="http://materializecss.com">Materialize</a>
+      </div>
     </div>
-  </div>
-</footer>
-<script type='text/javascript' src='./js/ga.js'></script>
+  </footer>
+  <script type='text/javascript' src='./js/ga.js'></script>
 </body>
+
 </html>
